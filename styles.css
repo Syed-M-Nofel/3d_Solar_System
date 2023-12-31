@@ -1,0 +1,66 @@
+body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  margin: 0;
+  background: url('./assets/bg.jpg') center/cover;
+}
+
+.container {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 400px;
+  height: 400px;
+    /* Add this line to set the background image */
+}
+.controls{
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.btn{
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  margin-right: 5%;
+  font-size:x-large;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: rgb(248, 7, 7);
+}
+
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+#icon1 {
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#icon2 {
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#icon3 {
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+}
